@@ -1,13 +1,63 @@
 /* *{
     margin: 0px;
 } */
-carousel-style {
+.carousel-indicators {
+    margin: 0px !important;
+    height: 0px !important;
+}
+.carousel-indicators ol {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    height: 3px !important;
+    border-radius: 0px !important;
+    width: 25%;
+}
+.carousel-style {
     width: 100%;
     height: 200px;
 }
-.caro-inner-style {
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+.caro-banner{
+    /* height: 750px; */
 }
+.caro-inner-style {
+    /* background: linear-gradient(to top, #09203f 0%, #537895 100%); */
+    /* border: 2px solid black; */
+}
+
 #carouselExampleIndicators{
     color: white;
+}
+.carousel-item {
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.carousel-item-img {
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.carousel-item-img img {
+    margin-left: 22px;
+}
+.caro-text {
+    margin-left: 140px;
+    color: black;
+}
+.caro-text p{
+    /* margin-left: 10px; */
+    color: black;
+}
+.caro-text button{
+    /* margin-left: 10px; */
+    
+}
+.btn-buy {
+    /* position: relative;
+    left: 100px; */
+}
+.btn-buy-posi {
+
 }
