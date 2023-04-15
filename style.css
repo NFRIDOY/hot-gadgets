@@ -29,6 +29,14 @@
 }
 .caro-banner{
     /* height: 750px; */
+    
+
+}
+.caro-container {
+    
+    background-repeat: none;
+    background-position: left bottom;
+
 }
 .caro-inner-style {
     /* background: linear-gradient(to top, #09203f 0%, #537895 100%); */
@@ -101,13 +109,19 @@ section h1 {
     background-color: aqua;
 }
 .two-image {
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .cat {
-    box-shadow: 10px 10px 20px lightgray;
+    box-shadow: 10px 10px 10px lightgray;
     border-radius: 20px;
     padding: 40px 40px;
 }
 .cat h4 {
     margin-top: 15px;
+}
+@media (max-width: px) {
+    .catagorie{
+        /* display: flex;
+        flex-direction: column; */
+    }
 }
