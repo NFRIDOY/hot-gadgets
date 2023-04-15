@@ -82,20 +82,32 @@
     background-color: white;
 }
 section {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 section h1 {
     margin-bottom: 30px;
 }
 .categorie-title {
     /* text-decoration-line: underline; */
-    text-decoration-thickness: 10px;
+    /* text-decoration-thickness: 10px; */
     /* text-decoration-color: gold; */
     /* text-decoration-color: radial-gradient(circle at 10% 20%, rgb(228, 118, 0) 0%, rgb(247, 189, 2) 90%); */
+
 }
 .underline {
     padding-top: 100px;
 }
 .cl{
     background-color: aqua;
+}
+.two-image {
+    margin-top: 100px;
+}
+.cat {
+    box-shadow: 10px 10px 20px lightgray;
+    border-radius: 20px;
+    padding: 40px 40px;
+}
+.cat h4 {
+    margin-top: 15px;
 }
